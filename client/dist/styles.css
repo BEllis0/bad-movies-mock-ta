@@ -38,6 +38,10 @@ html, body, #app {
   display: flex;
 }
 
+.movieImg {
+  width: 100%;
+}
+
 .search {
   flex-basis: 20%;
   min-width: 200px;
@@ -63,10 +67,9 @@ html, body, #app {
   flex-basis:80%;
   display: flex;
   flex-wrap: wrap;
-  
   margin:0;
   padding: 20px; 
-  overflow-y: scroll;
+  overflow-y: scroll !important;
   background-color: #2c3e50;
 }
 
