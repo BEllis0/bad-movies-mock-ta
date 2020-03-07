@@ -37,6 +37,8 @@ class App extends React.Component {
 
   componentDidMount() {
     this.getMoviesFromDb();
+
+    this.getMovies(28);
   }
 
   getMovies(id) {
